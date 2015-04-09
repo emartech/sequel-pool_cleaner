@@ -6,8 +6,8 @@ require 'sequel/pool_cleaner/version'
 Gem::Specification.new do |spec|
   spec.name          = "sequel-pool_cleaner"
   spec.version       = Sequel::PoolCleaner::VERSION
-  spec.authors       = ["Balazs Szerencsi"]
-  spec.email         = ["balazs.szerencsi@icloud.com"]
+  spec.authors       = ["Emarsys Technologies"]
+  spec.email         = ["balazs.szerencsi@emarsys.com"]
 
   spec.summary       = %q{Sequel connection pool cleanup gem.}
   spec.description   = %q{Removes closed connections from the Sequel connection pool.}
